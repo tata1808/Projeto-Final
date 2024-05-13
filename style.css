@@ -1,20 +1,45 @@
-
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
+    display: center;
+    background-color: #333;
+
 }
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #333 16.62, #888);
 }
 
+.cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem
+
+
+
+
+
+
+
+
+
+
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    padding: 0px;
+    width: 90%;
     text-align: center;
 }
+
 
 .navbar {
     margin-top: 20px;
@@ -31,7 +56,7 @@ body {
 }
 
 .home {
-    padding: 50px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -39,6 +64,11 @@ body {
     margin-bottom: 20px;
 }
 
+.home img{
+    width: 190%;
+    padding-right: 100%;
+
+}
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -48,7 +78,7 @@ body {
     border-radius: 5px;
 }
 
-.btn:hover {
+.btn :hover {
     background-color: #ff944d;
 }
 
@@ -65,7 +95,7 @@ body {
 .box-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex;
 }
 
 .box {
@@ -102,3 +132,4 @@ body {
 .box .btn:hover {
     background-color: #ff944d;
 }
+

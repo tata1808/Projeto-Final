@@ -10,31 +10,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
-<!-- header section starts  -->
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="assets/imagens/logo/logo.png" alt="logo">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item">Início</a>
+            <a class="cabecalho-menu-item">Camisetas</a>
+            <a class="cabecalho-menu-item">Canecas</a>
+            <a class="cabecalho-menu-item">Acessórios</a>
+            <a class="cabecalho-menu-item">Aplicação de Piercings</a>
+            <a class="cabecalho-menu-item">Calçados</a>
+            <a class="cabecalho-menu-item">Contato</a>
+            <a class="cabecalho-menu-item">Redes Sociais</a>
+            <a class="cabecalho-menu-item">Sobre Nós</a>
+        </nav>
+    </header>    
 
-<header class="header">
-
-    <a href="#" class="logo">
-        <img src="assets/imagens/logo/logo.png" alt="">
-    </a>
-
-    <nav class="navbar">
-        <a href="#inicio">Início</a>
-        <a href="#camisetas">Camisetas</a>
-        <a href="#canecas">Canecas</a>
-        <a href="#acessorios">Acessórios</a>
-        <a href="#brincoseaplicaçaodepiercings">Aplicação de Piercings</a>
-        <a href="#aplicaçaodepiercings">Calçados</a>
-        <a href="#aplicaçaodepiercings">Contato</a>
-        <a href="#redessociais">Redes Sociais</a>
-         <a href="#sobrenos">Sobre Nós</a>
-    </nav>
-
+<main class="conteudo">
     <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
         <div class="fas fa-shopping-cart" id="cart-btn"></div>
@@ -45,30 +40,36 @@
         <input type="pesquisar" id="search-box" placeholder="pesquisar...">
         <label for="search-box" class="fas fa-search"></label>
     </div>
-
+</main>
     <section class="home" id="home">
 
-        <img src="assets/imagens/banners/banner.png.png" alt="banner">
+        <div class="home">
+            <img src="assets/imagens/banners/banner.png" alt="banner">
+        </div> 
+
         <div class="content">
             <h3>Seja Bem-Vindo ao Mundo do Rock!</h3>
+
             <p>Aqui você encontrará diversos produtos de suas bandas e artistas favoritos com até 70% de Desconto!</p>
+
             <a href="#" class="btn">Mais Produtos</a>
-        </div>
-        <div class="home-img">
-           
+
         </div>
     
     </section>
 
-    <div class="cart-items-container">
+        <div class="cart-items-container">
         <div class="cart-item">
-            <span class="fas fa-times"></span>
-            <img src="assets/imagens/Camisetas/CamisetaPittyAdmirávelChipNovoxxanosPreta-G.png.png" alt="">
-            <div class="content">
-                <h3>Camiseta Pitty Admirável Chip Novo 20 anos,cor: preta, tamanho: G</h3>
-                <div class="price">$88.00/-</div>
-            </div>
+            <span class="fas fa-times">
+                <img src="assets/imagens/Camisetas/CamisetaPittyAdmirávelChipNovoxxanosPreta-G.png.png" alt="">
+            </span>
         </div>
+
+        <div class="content">
+            <h3>Camiseta Pitty Admirável Chip Novo 20 anos,cor: preta, tamanho: G</h3>
+                <div class="price">R$88.00</div>
+        </div>
+
         <div class="cart-item">
             <span class="fas fa-times"></span>
             <img src="assets/imagens/Canecas/CanecaBandaAcDcBlackIceMusicaRockMetalCasa.png.png" alt="">
@@ -87,13 +88,11 @@
         </div>
     </div>
 
-</header>
+    <section class="about" id="about">
 
-<section class="about" id="about">
+        <h1 class="heading"> <span> Sobre Nós</span></h1>
 
-    <h1 class="heading"> <span> Sobre Nós</span></h1>
-
-    <div class="row">
+        <div class="row">
 
         <div class="image">
             <img src="assets/imagens/loja/loja.png" alt="">
@@ -128,7 +127,7 @@
             <img src="assets/imagens/Camisetas/CamisetaMamonasAssassinasPretaBandaDeRockUnissex.png.png" alt="">
             <h3>Camiseta Banda \Mamonas Assassinas</h3>
             <h3>*Unissex. Tamanhos: P ao EXG</h3>
-            <div class="price">$120.00<span></span></div>
+            <div class="price">R$120.00<span></span></div>
             <a href="#" class="btn">adicionar ao carrinho</a>
         </div>
 
@@ -168,7 +167,7 @@
             <img src="assets/imagens/Camisetas/GhostBandTShirt.png.png" alt="">
             <h3>Camiseta Banda Ghost</h3>
              <h3>*Feminina,T-Shirt. Tamanhos: P ao EXG</h3>
-            <div class="price">$120.00<span></span></div>
+            <div class="price">R$120.00<span></span></div>
             <a href="#" class="btn">adicionar ao carrinho</a>
         </div>
 
@@ -176,7 +175,7 @@
             <img src="assets/imagens/Camisetas/GunsNRoses.png.png" alt="">
             <h3>Camiseta Banda Guns N Roses</h3>
              <h3>*Feminina,T-Shirt. Tamanhos: P ao EXG</h3>
-            <div class="price">$100.00<span></span></div>
+            <div class="price">R$100.00<span></span></div>
             <a href="#" class="btn">adicionar ao carrinho</a>
         </div>
 
@@ -270,7 +269,8 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <div class="price">$55.90<span></span></div>
+                <div class="price">R$55.90<span></span>
+                </div>
             </div>
         </div>
 
@@ -346,7 +346,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <div class="price">$20.00<span></span></div>
+                <div class="price">R$20.00<span></span></div>
             </div>
             <div class="image">
                 <img src="assets/imagens/Acessórios/CintoFemininoRock Ilhós+GargantilhaChoker+Corrente.png.png" alt="">
@@ -433,7 +433,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <div class="price">$200.00<span></span></div>
+                <div class="price">R$200.00<span></span></div>
             </div>
         </div>
 
@@ -696,9 +696,7 @@
     <div class="credit">creado por <span>Tainá Dias</span> | Todos os direitos reservados.</div>
 
 </section>
-
-
-
+</header>
 
 
 
